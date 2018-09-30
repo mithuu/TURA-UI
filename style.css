@@ -73,6 +73,7 @@ a:hover {
     line-height: 20px;
     text-decoration: none;
     transition: all 0.5s;
+    text-align: left;
 }
 
 .navbar-brand span {
@@ -150,8 +151,8 @@ a:hover {
 }
 
 .social-links {
-    position: fixed;
-    bottom: 10px;
+    position: absolute;
+    bottom: -22rem;
     margin-top: 10px;
 }
 
@@ -167,4 +168,76 @@ a:hover {
 
 .social-links li a i:hover {
     color: #aaa;
+}
+
+/* Project : Section */
+
+section {
+    padding-top: 5rem;
+    height: 100vh;
+    width: 100%;
+    color: #DDD;
+    background: #5a5a5a;
+    background-image: -webkit-radial-gradient(bottom, circle cover, #5a5a5a 10%, #222 85%);
+    background-image: -moz-radial-gradient(bottom, circle cover, #5a5a5a 10%, #222 85%);
+    background-image: -o-radial-gradient(bottom, circle cover, #5a5a5a 10%, #222 85%);
+    background-image: radial-gradient(bottom, circle cover, #5a5a5a 10%, #222 85%);
+}
+
+.wrapper-container {
+    margin: 0 auto;
+    width: 82%;
+}
+
+.gallery {
+    padding: 0;
+}
+
+.gallery img {
+    height: 45vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 3rem 0rem;
+    padding: 0;
+    width: 100%;
+}
+
+.text-part h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 60px #808080;
+    margin-top: -2rem;
+    background: #333; 
+}
+
+.text-part h6 {
+    font-size: 13px;
+    margin: auto;
+    text-align: center;
+    letter-spacing: 0.05em;
+    line-height: 1.7;
+    color: #bbb;
+}
+
+.primary-btn {
+    padding: 0.8rem 3rem;
+    box-shadow: 3px 3px 12px #222;
+    background: transparent;
+    color: #fff;
+    border-radius: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+    line-height: 1.1;
+    transition: all 0.3s;
+    position: absolute;
+    left: 40%;
+    margin-top: 1.4rem;
+}
+
+.primary-btn:hover {
+    text-decoration: none;
+    box-shadow: none;
+    background: #222;
 }
